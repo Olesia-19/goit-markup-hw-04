@@ -85,6 +85,7 @@ img{
 
 .header-nav-link.current{
     position: relative;
+    color:#404bbf;
 }
 
 .header-nav-link.current::after {
@@ -289,8 +290,7 @@ background-color:#404bbf;
 }
 
 .team-svg-icon{
-    width: 16px;
-    height: 16px;
+    fill:#f4f4fd;
 }
 
 .portfolio-list{
@@ -303,6 +303,7 @@ background-color:#404bbf;
 .portfolio-item{
     flex-basis: calc((100% - 24px *2) / 3);
     border: 1px solid #e7e9fc;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .thumb{
