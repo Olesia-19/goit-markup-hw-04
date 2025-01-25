@@ -450,8 +450,8 @@ background-color:#404bbf;
     fill:#f4f4fd;
 }
 
-.footer-media-link:hover, 
-.footer-media-link:focus{
+.footer-social-link:hover, 
+.footer-social-link:focus{
     background-color: #31d0aa;
 }
 
